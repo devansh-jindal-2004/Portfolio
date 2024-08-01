@@ -10,7 +10,7 @@ export default function Wizard(props) {
   const modelRef = useRef()
 
   useFrame((state, delta, xrframe) => {
-    modelRef.current.position.y = -1.5 + Math.sin(state.clock.elapsedTime)*0.15
+    modelRef.current.position.y = -1.5 + Math.sin(state.clock.elapsedTime)*0.1
   })
   return (
     <group {...props} dispose={null} position={[0, -1.5, 0]} scale={[0.06, 0.06, 0.06]} rotation={[0.25, 0, 0]} ref={modelRef}>
