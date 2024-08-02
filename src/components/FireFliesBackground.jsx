@@ -29,7 +29,7 @@ function FireFliesBackground() {
     <div className='fixed top-0 left-0 w-full h-full -z-10 overflow-hidden'>
         {
             fireFlies.map((firefly) => {
-                return <div key={firefly.id} className=' absolute rounded-full w-[10px] h-[10px] bg-firefly-radial' style={{
+                return <div key={firefly.id} className=' absolute rounded-full w-[15px] h-[15px] bg-firefly-radial' style={{
                     top: firefly.top,
                     left: firefly.left,
                     animation: `move ${firefly.animationDuration} infinite alternate`

@@ -5,7 +5,7 @@
 @layer base {
   :root {
     --background: 27 27 27;
-    --foreground: 225 225 225;
+    --forground: 225 225 225;
     --muted: 115 115 115;
     --accent: 254 254 91;
     /* #FEFE5B */
@@ -15,6 +15,10 @@
 @layer utilities {
   .pause {
     animation-play-state: paused;
+  }
+
+  .custom-bg{
+    @apply bg-background/20 border border-accent/30 border-solid backdrop-blur-[6px] shadow-glass-inset hover:shadow-glass-sm
   }
 }
 
