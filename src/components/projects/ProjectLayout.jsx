@@ -1,8 +1,9 @@
+import Link from 'next/link'
 import React from 'react'
 
 function ProjectLayout({name, description, date, demoLink}) {
   return (
-    <div className=' text-white flex items-center justify-between w-full relative rounded-lg overflow-hidden p-6 custom-bg'>
+    <Link href={demoLink} target='_blank' className=' text-white flex items-center justify-between w-full relative rounded-lg overflow-hidden p-6 custom-bg cursor-pointer'>
       <div className='flex items-center justify-center space-x-2'>
         <h2 className=' text-forground'>{name}</h2>
         <p className=' text-muted'>{description}</p>
@@ -11,7 +12,7 @@ function ProjectLayout({name, description, date, demoLink}) {
       <p className=' text-forground'>
         {new Date(date).toDateString()}
       </p>
-    </div>
+    </Link>
   )
 }
 
