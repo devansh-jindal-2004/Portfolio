@@ -8,7 +8,7 @@ export default function Staff(props) {
   const modelRef = useRef()
 
   useFrame(()=> {
-    modelRef.current.rotation.y += 0.2
+    modelRef.current.rotation.y += 0.07
   })
 
   return (
