@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={clsx(inter.variable, "bg-background text-forground")}>
+      <body className={clsx(inter.variable, "bg-background text-forground font-Inter")}>
         {children}
         <FireFliesBackground />
       </body>
