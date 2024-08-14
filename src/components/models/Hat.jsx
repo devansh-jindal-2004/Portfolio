@@ -12,7 +12,7 @@ export default function Hat(props) {
   const modelRef = useRef()
 
   useFrame(()=> {
-    modelRef.current.rotation.y += 0.007
+    modelRef.current.rotation.y += 0.004
   })
   return (
     <group {...props} dispose={null} ref={modelRef} scale={[1.8, 1.8, 1.8]} rotation={[0.4, -1, 0]} position={[0,0,0]}>

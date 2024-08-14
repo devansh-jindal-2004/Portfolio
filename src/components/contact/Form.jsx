@@ -27,8 +27,6 @@ export default function App() {
           toast.error("message failed, try again", {
             id: toastId
           });
-          console.log(error.message);
-          
         },
       );
   };

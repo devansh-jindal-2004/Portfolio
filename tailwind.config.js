@@ -33,6 +33,9 @@ module.exports = {
       animation:{
         'spin-slow': 'spin 45s linear infinite',
         'spin-slow-reverse': 'spin-reverse 45s linear infinite',
+      },
+      screens:{
+        xs: '480px'
       }
     },
   },
