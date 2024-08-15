@@ -18,13 +18,13 @@ function AboutDetails() {
 
                 <ItemLayout className={`col-span-full xs:col-span-6 lg:col-span-4 text-accent`}>
                     <p className='font-semibold w-full text-left text-2xl sm:text-5xl'>
-                        25+ <sub className='font-semibold text-base'>clients</sub>
+                        4+ <sub className='font-semibold text-base'>clients</sub>
                     </p>
                 </ItemLayout>
 
                 <ItemLayout className={`col-span-full xs:col-span-6 lg:col-span-4 text-accent`}>
                     <p className='font-semibold w-full text-left text-2xl sm:text-5xl'>
-                        4+ <sub className='font-semibold text-base'>years of experience</sub>
+                        1+ <sub className='font-semibold text-base'>years of experience</sub>
                     </p>
                 </ItemLayout>
 
